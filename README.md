@@ -30,7 +30,7 @@ termux-setup-storage
 ```
 
 ```bash
-git clone https://github.com/NaufraZapp/NaufraZapp-MD 
+cd /sdcard && git clone https://github.com/NaufraZapp/NaufraZapp-MD 
 ```
 
 ```bash
