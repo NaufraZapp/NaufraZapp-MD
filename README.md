@@ -26,7 +26,7 @@ pkg upgrade -y && pkg update -y && pkg install git -y && pkg install nodejs-lts 
 ```
 
 ```bash
-termux setup storage
+termux-setup-storage
 ```
 
 ```bash
