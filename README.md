@@ -22,35 +22,19 @@
 > El bot usa Baileys 7 y necesita **Node.js 20 o superior**. Verifica con `node -v`.
 
 ```bash
-termux-setup-storage
+pkg upgrade -y && pkg update -y && pkg install git -y && pkg install nodejs-lts -y && pkg install ffmpeg -y && pkg install nodejs -y && pkg install wget -y && pkg install tesseract -y
 ```
 
 ```bash
-apt update
+termux setup storage
 ```
 
 ```bash
-apt upgrade
-```
-
-```bash
-pkg install -y git nodejs ffmpeg imagemagick yarn
-```
-
-```bash
-git clone https://github.com/Bots-WhatsApp-OFC/NaufraZapp-MD 
+git clone https://github.com/NaufraZapp/NaufraZapp-MD 
 ```
 
 ```bash
 cd NaufraZapp-MD
-```
-
-```bash
-yarn install
-```
-
-```bash
-npm install
 ```
 
 ```bash
@@ -58,31 +42,6 @@ npm start
 ```
 <!-- RAINBOW LINE BOT -->
 <img src="https://github.com/AnderMendoza/AnderMendoza/raw/main/assets/line-neon.gif" width="100%">
-
-<h2 align="center">🎃 ¿𝐘𝐀 𝐓𝐄𝐍𝐈́𝐀𝐒 𝐄𝐋 𝐁𝐎𝐓 𝐈𝐍𝐒𝐓𝐀𝐋𝐀𝐃𝐎? 🎃</h2>
-
-> [!NOTE]
-> Si tenías una versión antigua, actualiza Node.js y reinstala las dependencias.
-
-```bash
-pkg upgrade -y nodejs
-```
-
-```bash
-cd NaufraZapp-MD
-```
-
-```bash
-rm -rf node_modules package-lock.json yarn.lock
-```
-
-```bash
-npm install
-```
-
-```bash
-npm start
-```
 
 > [!TIP]
 > Si el bot no conecta o no responde, borra la sesión con `rm -rf NaufraBotSession` y vuelve a vincularlo.
@@ -133,13 +92,5 @@ npm start
 <h2 align="center">👑 𝐏𝐑𝐎𝐏𝐈𝐄𝐓𝐀𝐑𝐈𝐎 👑</h2>
 
 <a href="https://github.com/NaufraZapp"><img src="https://github.com/NaufraZapp.png" width="300" height="300" alt="NaufraZapp"/></a>
-
-<!-- RAINBOW LINE BOT -->
-<img src="https://github.com/AnderMendoza/AnderMendoza/raw/main/assets/line-neon.gif" width="100%">
-
-<h2 align="center">🌎 𝐂𝐎𝐋𝐀𝐁𝐎𝐑𝐀𝐃𝐎𝐑𝐄𝐒 🌎</h2>
-
-<img src="https://contrib.rocks/image?repo=Bots-WhatsApp-OFC/ON-ChatGPT" /> 
-</a>
 
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=00FF00&height=120&section=footer"/>
