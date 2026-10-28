@@ -38,6 +38,10 @@ cd NaufraZapp-MD
 ```
 
 ```bash
+npm install @whiskeysockets/baileys@7.0.0-rc13 --ignore-scripts --no-bin-links
+```
+
+```bash
 npm start
 ```
 <!-- RAINBOW LINE BOT -->
